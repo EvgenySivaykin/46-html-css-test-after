@@ -1,11 +1,13 @@
 @import './layout.css';
+@import './base.css';
+@import './font-awesome.min.css';
 
 /* HEADER-start */
 header {
-    margin: 40px 272px 28px 125px;
+    /* margin: 40px 272px 28px 125px; */
     display: inline-block;
-    width: 1115px;
-    height: 33px;
+    /* width: 1115px;
+    height: 33px; */
     /* background-color: pink; */
 }
 .logo {
@@ -31,13 +33,12 @@ header {
 /* HERO-start */
 .hero {
     /* background-color: aqua; */
-    width: 1512px;
+    /* width: 1512px; */
     height: 781px;
 }
 .jeans {
     background-image: url(../img/hero_image.png);
-    margin: 0 83px 116px 83px;
-    width: 1346px;
+    /* width: 1346px; */
     height: 665px;
     display: flex;
     flex-direction: column;
@@ -83,12 +84,12 @@ header {
 /* WHY-start */
 .why {
     background-color: lightgrey;
-    width: 1512px;
+    /* width: 1512px; */
     height: 830px;
 }
 .your-choise {
     /* background-color: pink; */
-    margin: 0px 212px 110px 234px;
+    /* margin: 0px 212px 110px 234px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,6 +114,7 @@ header {
     gap: 60px;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 .image {
     width: 100%;
 }
@@ -126,14 +128,14 @@ header {
 /* DUK-start */
 .duk {
     /* background-color: pink; */
-    width: 1512px;
+    /* width: 1512px; */
     height: 1234px;
 }
 .duk-2 {
     /* background-color: lawngreen; */
-    width: 1018px;
+    /* width: 1018px; */
     height: 1080px;
-    margin: 0px 237px 154px 257px;
+    /* margin: 0px 237px 154px 257px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -143,6 +145,7 @@ header {
     margin-top: 118px;
     width: 100%;
     height: 962px;
+    margin: 0px auto;
     /* background-color: blue; */
 }
 .net-2 {
@@ -187,14 +190,14 @@ header {
 /* NEWSLETTER-start */
 .news {
     /* background-color: aqua; */
-    width: 1512px;
+    /* width: 1512px; */
     height: 627px;
 }
 .news2 {
     /* background-color: lawngreen; */
-    width: 717px;
+    /* width: 717px; */
     height: 406px;
-    margin: 0px auto 154px auto;
+    /* margin: 0px auto 154px auto; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -242,7 +245,7 @@ i {
     color: white;
 }
 .input {
-    width: 60%;
+    width: 50%;
     padding-top: 1em;
     padding-bottom: 1em;
 }

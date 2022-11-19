@@ -1,4 +1,4 @@
-/* :root {
+:root {
     --half-gap: 10px;
     --gap: calc(var(--half-gap) * 2);
     --increment: calc(var(--col1) + var(--gap));
@@ -31,8 +31,13 @@
 .container {
     display: inline-block;
     width: 100%;
-    padding: 60px 0;
+    padding: 0;
 }
+/* .container {
+    display: inline-block;
+    width: 100%;
+    padding: 60px 0;
+} */
 .container > .row {
     display: inline-block;
     width: 100%;
@@ -603,4 +608,4 @@
     .container > .row > .ml-xxl-11 {
         margin-left: var(--ml11);
     }
-} */
+}
