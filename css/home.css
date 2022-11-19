@@ -35,7 +35,7 @@ header {
     height: 781px;
 }
 .jeans {
-    background-image: url(/img/hero_image.png);
+    background-image: url(../img/hero_image.png);
     margin: 0 83px 116px 83px;
     width: 1346px;
     height: 665px;
